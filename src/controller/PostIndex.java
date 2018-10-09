@@ -89,11 +89,11 @@ public class PostIndex extends HttpServlet {
 			post_month_index[i] = post_month[post_count - (page_num * 5 + i) - 1];
 			post_date_index[i] = post_date[post_count - (page_num * 5 + i) - 1];
 			post_tag_index[i] = post_tag[post_count - (page_num * 5 + i) - 1];
-			if(post_tag_index[post_count - (page_num * 5 + i) - 1].equals("生活")){
+			if(post_tag_index[i].equals("生活")){
 				post_tagCode_index[i] = "life";
-			}else if(post_tag_index[post_count - (page_num * 5 + i) - 1].equals("同志社")){
+			}else if(post_tag_index[i].equals("同志社")){
 				post_tagCode_index[i] = "school";
-			}else if(post_tag_index[post_count - (page_num * 5 + i) - 1].equals("旅行")){
+			}else if(post_tag_index[i].equals("旅行")){
 				post_tagCode_index[i] = "travel";
 			}
 			post_intro_index[i] = post_intro[post_count - (page_num * 5 + i) - 1];
