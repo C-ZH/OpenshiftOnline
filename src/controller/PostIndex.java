@@ -124,6 +124,9 @@ public class PostIndex extends HttpServlet {
 		System.out.println(post_title_index[2]);
 		System.out.println(post_title_index[3]);
 		System.out.println(post_title_index[4]);
+		
+		System.out.println(post_tag_index[0]);
+		System.out.println(post_tagCode_index[0]);
 				
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 	}
