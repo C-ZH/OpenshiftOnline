@@ -1,0 +1,64 @@
+#all_gb{
+	display:none;
+}
+.guestbook{
+	border-left:double 6px #a2a2a2;
+	padding-left:1.5em;
+	margin-bottom:1em;
+}
+.gb1{
+	width:30%;
+	margin-bottom:1em;
+}
+.gb2{
+
+}
+.post_user{
+	font-weight:500;
+	font-size:1.25em;
+}
+.post_time{
+	font-size:0.9em;
+	color:#626262;
+}
+.post_title{
+	font-weight:500;
+	font-size:1em;
+}
+.post_content{
+	display:block;
+	margin-left:1em;
+	width:50%;
+}
+
+.login_box{
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.login_box input{
+	margin-bottom:1em;
+}
+/* why the following not work? */
+.login_box input#submit{;
+	margin-left:auto;
+	margin-right:auto;
+}
+.feedback_input{
+	display:none;
+	margin-left:8% !important;
+	padding-left:1.5em;
+}
+.feedback{
+	margin-left:8% !important;
+	border-left:solid 2px #a2a2a2;
+	padding-left:1.5em;
+	margin-bottom:1em;
+}
+
+/* Teaching */
+li > span.kansaiben{
+	font-weight:bold;
+	color:red;
+}
+
